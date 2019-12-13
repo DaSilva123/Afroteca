@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "24950568116",
+    "firebase_url": "https://afroteca-e7441.firebaseio.com",
+    "project_id": "afroteca-e7441",
+    "storage_bucket": "afroteca-e7441.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24950568116:android:cb01905c8c758ed00a13e1",
+        "android_client_info": {
+          "package_name": "com.afroteca.afroteca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24950568116-vkj698g1kusmdogst3jbdklmrecd8mbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMsDM_9chwDdnxCBP8k-nFiBz2f1iVWKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24950568116-vkj698g1kusmdogst3jbdklmrecd8mbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
