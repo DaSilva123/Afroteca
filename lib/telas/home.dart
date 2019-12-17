@@ -12,28 +12,19 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFd54a58),
-        title: Stack(
-          children: <Widget>[
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Text(
-                  "Inicio",
-                  style: TextStyle(
-                      fontSize: 18.0,
-                      fontWeight: FontWeight.w400,
-                      letterSpacing: 1.0),
-                )
-              ],
-            )
-          ],
-        ),
-        leading: IconButton(
-          padding: EdgeInsets.only(left: 350.0),
-          onPressed: () {},
-          icon: Icon(Icons.search),
-          iconSize: 30.0,
-          color: Colors.white,
+        title: Container(
+          child: Row(
+           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              const Text("Inicio"),
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.search),
+                iconSize: 30.0,
+                color: Colors.white,
+              ),
+            ],
+          ),
         ),
       ),
 

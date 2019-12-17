@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Afroteca',
       debugShowCheckedModeBanner: false,
+
       home: Login(),
     );
   }
